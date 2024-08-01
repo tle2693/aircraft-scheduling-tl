@@ -1,0 +1,13 @@
+<h3>-- {{formatedTodayDate}} --</h3>
+<div class="timeline">
+    <div *ngFor="let block of currentTimeline"
+    [style.backgroundColor]="block.color"
+    [style.left]="block.start + '%'"
+    [style.width]="block.width + '%'"
+    ></div>
+</div>
+<div class="time-label">
+    <p>0:00</p>
+    <p>12:00</p>
+    <p>24:00</p>
+</div>

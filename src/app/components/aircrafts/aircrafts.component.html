@@ -1,0 +1,13 @@
+<h1>Aircrafts</h1>
+<div *ngFor="let aircraft of aircrafts; let i=index">
+    <mat-card class="aircraft" [class.selected-aircraft]="selectedIndex === i" (click)="onAircraftSelected(i)">
+        <mat-card-header>
+            <mat-card-title>{{aircraft.ident}}</mat-card-title>
+            <mat-card-subtitle>Capacity: {{aircraft.economySeats}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>Utilisation: {{aircraft.utilisation}}%</p>
+        </mat-card-content>
+    </mat-card>
+</div>
+

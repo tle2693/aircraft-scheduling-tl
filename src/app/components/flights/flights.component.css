@@ -1,0 +1,18 @@
+.flight-list {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.flight{
+    margin: 1rem;
+    color: #043A4E;
+}
+
+h1 {
+    text-align: center;
+}
+
+.no-flight-message {
+    color: #F2545B;
+    font-weight: bold;
+}

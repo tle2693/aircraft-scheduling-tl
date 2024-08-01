@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8px;
+    justify-content: space-around;
+    background-color: #04374B;
+}
+
+:host ::ng-deep h1 {
+    color: #D8E7E9;
+}

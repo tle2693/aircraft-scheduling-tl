@@ -1,0 +1,31 @@
+h3 {
+    text-align: center;
+    color: #E4111C;
+}
+
+.timeline {
+    position: relative;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #C5C0BF;
+  }
+
+.timeline div {
+    position: absolute;
+    height: 100%;
+}
+
+.time-label {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.time-label p {
+    color: #F8A0A5;
+    margin-top: 0.5em;
+}
+
+ 

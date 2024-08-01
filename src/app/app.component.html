@@ -1,0 +1,6 @@
+<div class="container">
+    <aircrafts *ngIf="finishedFetching" (selectedAircraft)="updateRotation(); updateValidFlights()"></aircrafts>
+    <rotation *ngIf="finishedFetching" (onFlightRemove)="updateValidFlights()"></rotation>
+    <flights *ngIf="finishedFetching" (selectedFlight)="updateRotation()"></flights>
+</div>
+

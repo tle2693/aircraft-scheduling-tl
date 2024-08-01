@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+.aircraft {
+    margin: 1rem;
+    color: #043A4E;
+}
+.aircraft:hover {
+    cursor:pointer;
+}
+
+.selected-aircraft {
+    border: 3px solid #F2545B;
+}
