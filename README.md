@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Run `ng serve` or `npm start` to run the project in a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Key features
-- Live aircraft utilisation update.
+- Live aircraft utilization update.
 - Live aircraft timeline update.
 - Live flights filter based on product requirements.
 - Add and remove flights for an aircraft rotation along with warning message.
